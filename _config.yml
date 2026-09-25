@@ -7,10 +7,9 @@ keywords: ""
 skills: "Software Dev • GIS Analysis • Data Science • R&D • Training"
 meta_author: "SustainTech Lab"
 
-# Disable integrations & contact forms
+# Disable integrations
 google_verify:
 bing_verify:
-contact: 
 
 # Color settings
 color:

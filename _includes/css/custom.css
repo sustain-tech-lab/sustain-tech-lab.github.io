@@ -1,0 +1,29 @@
+/* Custom additions for the minimal one-page layout */
+
+#about p {
+    line-height: 1.6;
+}
+
+.legal {
+    max-width: 480px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid rgba(44, 62, 80, 0.15);
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: rgba(44, 62, 80, 0.7);
+}
+
+.legal strong {
+    color: #{{ site.color.secondary }};
+}
+
+.legal a {
+    color: #{{ site.color.primary }};
+    text-decoration: none;
+}
+
+.legal a:hover,
+.legal a:focus {
+    text-decoration: underline;
+}
